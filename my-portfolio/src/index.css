@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* -- Header -- */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header_menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.Arno_Van_Eetvelde {
+  width: 650px;
+  font-size: 48px;
+  color: rgba(112, 112, 112, 1);
+  cursor: pointer;
+}
+
+.header_menu_item {
+  font-size: 36px;
+  color: rgba(112, 112, 112, 1);
+  align-self: center;
+  cursor: pointer;
+}
+
+.selector_pos_0 {
+  width: 10%;
+  transition: transform 1s;
+  transform: translate(-100%);
+}
+
+.selector_pos_1 {
+  width: 10%;
+  transition: transform 1s;
+  transform: translate(0%);
+}
+
+.selector_pos_2 {
+  width: 10%;
+  transition: transform 1s;
+  transform: translate(100%);
+}
+
+/* -- About Me -- */
+
+.about_me_container {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.about_me_spacer {
+  width: 100%;
+}
+
+.about_me_text {
+  width: 50%;
 }
